@@ -1,0 +1,14 @@
+
+{% block content %}
+
+<table>
+{% for task in tasks %}
+<tr>
+{{task.task_name}}<br>
+</tr>
+<br>
+
+{% endfor %}
+</table>
+
+{% endblock %}
